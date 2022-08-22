@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21288BA7F56576E779C755FA /* Pods_WhatsAppShare_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E72CF07FB34B4B8646011C /* Pods_WhatsAppShare_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		DE7774329DB367A8C833A684 /* Pods_WhatsAppShare_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC088697D1EDEC79CC7196AA /* Pods_WhatsAppShare_Example.framework */; };
+		66CDDF653460B92CC63F4D3A /* libPods-WhatsAppShare_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AB89BEE51BBB93C2717DA2 /* libPods-WhatsAppShare_Example.a */; };
+		6F6504B728B3355400C02FF3 /* share.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F6504B528B3355400C02FF3 /* share.jpg */; };
+		6F6504B828B3355400C02FF3 /* share.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6F6504B628B3355400C02FF3 /* share.mp4 */; };
+		92EC2B4D773C59D90D8C2E8D /* libPods-WhatsAppShare_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F734A7D7906F46F0C71E935 /* libPods-WhatsAppShare_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08F7BF8B0015C583773F170A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		08F7BF8B0015C583773F170A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0CAEA216C75DBA7C3A1AD946 /* Pods-WhatsAppShare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppShare_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsAppShare_Tests/Pods-WhatsAppShare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C8D26C2E38815055AFDC707 /* Pods-WhatsAppShare_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppShare_Example.debug.xcconfig"; path = "Target Support Files/Pods-WhatsAppShare_Example/Pods-WhatsAppShare_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29E72CF07FB34B4B8646011C /* Pods_WhatsAppShare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsAppShare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A05A32E5E116370D89ABD66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3A05A32E5E116370D89ABD66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4A6EE14B930071504E8DADCA /* Pods-WhatsAppShare_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppShare_Example.release.xcconfig"; path = "Target Support Files/Pods-WhatsAppShare_Example/Pods-WhatsAppShare_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F734A7D7906F46F0C71E935 /* libPods-WhatsAppShare_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhatsAppShare_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WhatsAppShare_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppShare_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +46,10 @@
 		607FACE51AFB9204008FA782 /* WhatsAppShare_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppShare_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		82ABACA2AADBDBCDF5B7B92D /* WhatsAppShare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WhatsAppShare.podspec; path = ../WhatsAppShare.podspec; sourceTree = "<group>"; };
-		EC088697D1EDEC79CC7196AA /* Pods_WhatsAppShare_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsAppShare_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69AB89BEE51BBB93C2717DA2 /* libPods-WhatsAppShare_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhatsAppShare_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6504B528B3355400C02FF3 /* share.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = share.jpg; sourceTree = "<group>"; };
+		6F6504B628B3355400C02FF3 /* share.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = share.mp4; sourceTree = "<group>"; };
+		82ABACA2AADBDBCDF5B7B92D /* WhatsAppShare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WhatsAppShare.podspec; path = ../WhatsAppShare.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC4605A5F82722BCFFBACDD2 /* Pods-WhatsAppShare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppShare_Tests.release.xcconfig"; path = "Target Support Files/Pods-WhatsAppShare_Tests/Pods-WhatsAppShare_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7774329DB367A8C833A684 /* Pods_WhatsAppShare_Example.framework in Frameworks */,
+				66CDDF653460B92CC63F4D3A /* libPods-WhatsAppShare_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21288BA7F56576E779C755FA /* Pods_WhatsAppShare_Tests.framework in Frameworks */,
+				92EC2B4D773C59D90D8C2E8D /* libPods-WhatsAppShare_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +81,6 @@
 				0CAEA216C75DBA7C3A1AD946 /* Pods-WhatsAppShare_Tests.debug.xcconfig */,
 				EC4605A5F82722BCFFBACDD2 /* Pods-WhatsAppShare_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				6F6504B528B3355400C02FF3 /* share.jpg */,
+				6F6504B628B3355400C02FF3 /* share.mp4 */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -154,8 +159,8 @@
 		B875BA36479E29EB3D8B3093 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC088697D1EDEC79CC7196AA /* Pods_WhatsAppShare_Example.framework */,
-				29E72CF07FB34B4B8646011C /* Pods_WhatsAppShare_Tests.framework */,
+				69AB89BEE51BBB93C2717DA2 /* libPods-WhatsAppShare_Example.a */,
+				4F734A7D7906F46F0C71E935 /* libPods-WhatsAppShare_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +176,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				0E395F50EEE10BDDE6CABD4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +217,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LY5LUTP359;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LY5LUTP359;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6504B828B3355400C02FF3 /* share.mp4 in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				6F6504B728B3355400C02FF3 /* share.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,24 +271,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E395F50EEE10BDDE6CABD4C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhatsAppShare_Example/Pods-WhatsAppShare_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WhatsAppShare/WhatsAppShare.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WhatsAppShare.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsAppShare_Example/Pods-WhatsAppShare_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5A72D282695DC8A520F99EC2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +469,14 @@
 			baseConfigurationReference = 1C8D26C2E38815055AFDC707 /* Pods-WhatsAppShare_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LY5LUTP359;
 				INFOPLIST_FILE = WhatsAppShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +485,14 @@
 			baseConfigurationReference = 4A6EE14B930071504E8DADCA /* Pods-WhatsAppShare_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LY5LUTP359;
 				INFOPLIST_FILE = WhatsAppShare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CAEA216C75DBA7C3A1AD946 /* Pods-WhatsAppShare_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LY5LUTP359;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC4605A5F82722BCFFBACDD2 /* Pods-WhatsAppShare_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LY5LUTP359;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
