@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WhatsAppShare_Example' do
+  pod 'WhatsAppShare', :path => '../'
+
+  target 'WhatsAppShare_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
